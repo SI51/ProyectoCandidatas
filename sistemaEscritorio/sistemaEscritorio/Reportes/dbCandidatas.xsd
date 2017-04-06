@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dbCandidatas" targetNamespace="http://tempuri.org/dbCandidatas.xsd" xmlns:mstns="http://tempuri.org/dbCandidatas.xsd" xmlns="http://tempuri.org/dbCandidatas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dbCandidatas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dbCandidatas" msprop:Generator_UserDSName="dbCandidatas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="sistemamiss" msprop:Generator_TableClassName="sistemamissDataTable" msprop:Generator_TableVarName="tablesistemamiss" msprop:Generator_TablePropName="sistemamiss" msprop:Generator_RowDeletingName="sistemamissRowDeleting" msprop:Generator_RowChangingName="sistemamissRowChanging" msprop:Generator_RowEvHandlerName="sistemamissRowChangeEventHandler" msprop:Generator_RowDeletedName="sistemamissRowDeleted" msprop:Generator_UserTableName="sistemamiss" msprop:Generator_RowChangedName="sistemamissRowChanged" msprop:Generator_RowEvArgName="sistemamissRowChangeEvent" msprop:Generator_RowClassName="sistemamissRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="pkCandidata" msprop:Generator_ColumnVarNameInTable="columnpkCandidata" msprop:Generator_ColumnPropNameInRow="pkCandidata" msprop:Generator_ColumnPropNameInTable="pkCandidataColumn" msprop:Generator_UserColumnName="pkCandidata" type="xs:string" minOccurs="0" />
+              <xs:element name="dtAnioConvocatoria" msprop:Generator_ColumnVarNameInTable="columndtAnioConvocatoria" msprop:Generator_ColumnPropNameInRow="dtAnioConvocatoria" msprop:Generator_ColumnPropNameInTable="dtAnioConvocatoriaColumn" msprop:Generator_UserColumnName="dtAnioConvocatoria" type="xs:string" minOccurs="0" />
+              <xs:element name="sNombreCompleto" msprop:Generator_ColumnVarNameInTable="columnsNombreCompleto" msprop:Generator_ColumnPropNameInRow="sNombreCompleto" msprop:Generator_ColumnPropNameInTable="sNombreCompletoColumn" msprop:Generator_UserColumnName="sNombreCompleto" type="xs:string" minOccurs="0" />
+              <xs:element name="dtFechaNacimiento" msprop:Generator_ColumnVarNameInTable="columndtFechaNacimiento" msprop:Generator_ColumnPropNameInRow="dtFechaNacimiento" msprop:Generator_ColumnPropNameInTable="dtFechaNacimientoColumn" msprop:Generator_UserColumnName="dtFechaNacimiento" type="xs:string" minOccurs="0" />
+              <xs:element name="sDescripcion" msprop:Generator_ColumnVarNameInTable="columnsDescripcion" msprop:Generator_ColumnPropNameInRow="sDescripcion" msprop:Generator_ColumnPropNameInTable="sDescripcionColumn" msprop:Generator_UserColumnName="sDescripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="sCorreoElectronico" msprop:Generator_ColumnVarNameInTable="columnsCorreoElectronico" msprop:Generator_ColumnPropNameInRow="sCorreoElectronico" msprop:Generator_ColumnPropNameInTable="sCorreoElectronicoColumn" msprop:Generator_UserColumnName="sCorreoElectronico" type="xs:string" minOccurs="0" />
+              <xs:element name="sCurp" msprop:Generator_ColumnVarNameInTable="columnsCurp" msprop:Generator_ColumnPropNameInRow="sCurp" msprop:Generator_ColumnPropNameInTable="sCurpColumn" msprop:Generator_UserColumnName="sCurp" type="xs:string" minOccurs="0" />
+              <xs:element name="sNivelEstudios" msprop:Generator_ColumnVarNameInTable="columnsNivelEstudios" msprop:Generator_ColumnPropNameInRow="sNivelEstudios" msprop:Generator_ColumnPropNameInTable="sNivelEstudiosColumn" msprop:Generator_UserColumnName="sNivelEstudios" type="xs:string" minOccurs="0" />
+              <xs:element name="sFotografiaRostro" msprop:Generator_ColumnVarNameInTable="columnsFotografiaRostro" msprop:Generator_ColumnPropNameInRow="sFotografiaRostro" msprop:Generator_ColumnPropNameInTable="sFotografiaRostroColumn" msprop:Generator_UserColumnName="sFotografiaRostro" type="xs:string" minOccurs="0" />
+              <xs:element name="bStatus" msprop:Generator_ColumnVarNameInTable="columnbStatus" msprop:Generator_ColumnPropNameInRow="bStatus" msprop:Generator_ColumnPropNameInTable="bStatusColumn" msprop:Generator_UserColumnName="bStatus" type="xs:string" minOccurs="0" />
+              <xs:element name="iLike" msprop:Generator_ColumnVarNameInTable="columniLike" msprop:Generator_ColumnPropNameInRow="iLike" msprop:Generator_ColumnPropNameInTable="iLikeColumn" msprop:Generator_UserColumnName="iLike" type="xs:string" minOccurs="0" />
+              <xs:element name="fkMunicipio_pkMunicipio" msprop:Generator_ColumnVarNameInTable="columnfkMunicipio_pkMunicipio" msprop:Generator_ColumnPropNameInRow="fkMunicipio_pkMunicipio" msprop:Generator_ColumnPropNameInTable="fkMunicipio_pkMunicipioColumn" msprop:Generator_UserColumnName="fkMunicipio_pkMunicipio" type="xs:string" minOccurs="0" />
+              <xs:element name="fkUsuario_pkUsuario" msprop:Generator_ColumnVarNameInTable="columnfkUsuario_pkUsuario" msprop:Generator_ColumnPropNameInRow="fkUsuario_pkUsuario" msprop:Generator_ColumnPropNameInTable="fkUsuario_pkUsuarioColumn" msprop:Generator_UserColumnName="fkUsuario_pkUsuario" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
